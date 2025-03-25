@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        .bar-container { display: flex; justify-content: center; align-items: flex-end; height: 300px; }
+        .bar { width: 20px; margin: 2px; background: steelblue; transition: 0.5s; }
+    </style>
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <button onclick="generateArray()">Generate Array</button>
+    <button onclick="bubbleSort()">Sort</button>
+    <div class="bar-container" id="bar-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
